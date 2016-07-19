@@ -1,0 +1,32 @@
+{
+  "name": "heroku-sqs-producer",
+  "version": "1.0.0",
+  "description": "Produces SQS messages then wakes up your working dynos from Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://renatoargh@github.com/gammasoft/heroku-sqs-producer.git"
+  },
+  "keywords": [
+    "heroku",
+    "aws",
+    "sqs",
+    "dyno",
+    "wake",
+    "up"
+  ],
+  "author": "Renato Gama <renato@gammasoft.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gammasoft/heroku-sqs-producer/issues"
+  },
+  "homepage": "https://github.com/gammasoft/heroku-sqs-producer",
+  "dependencies": {
+    "async": "^2.0.0",
+    "gammautils": "0.0.75",
+    "request": "^2.73.0"
+  }
+}
